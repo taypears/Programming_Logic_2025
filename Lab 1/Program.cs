@@ -4,8 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-             //Example line for reference//
-             Console.WriteLine("Hello, World!");
         //1.Include the instructions for each step as a comment in your code.
         /*2. Add a multi-line comment with your name and email address.
             TayeJa Pearson S01322082@acad.tri-c.edu*/
@@ -18,7 +16,7 @@ class Program
         //5. Create a variable to store the value of pi which is 3.14159 and output the value.
             string x = "3.14159"; 
             Console.WriteLine(x);
-        //6. create a variable to store a character and assign your favorite letter of the alphabet to it. output the value.
+        //6. create a variable to store a character and assign your favorite letter of the alphabet to it. Output the value.
             char myLetter = 'T';
             Console.WriteLine(myLetter);
     }
