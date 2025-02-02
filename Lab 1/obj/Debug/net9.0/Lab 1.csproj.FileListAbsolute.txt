@@ -1,0 +1,15 @@
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\bin\Debug\net9.0\Lab 1.exe
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\bin\Debug\net9.0\Lab 1.deps.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\bin\Debug\net9.0\Lab 1.runtimeconfig.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\bin\Debug\net9.0\Lab 1.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\bin\Debug\net9.0\Lab 1.pdb
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.AssemblyInfoInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.AssemblyInfo.cs
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.csproj.CoreCompileInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.sourcelink.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\refint\Lab 1.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.pdb
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\Lab 1.genruntimeconfig.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 1\obj\Debug\net9.0\ref\Lab 1.dll
