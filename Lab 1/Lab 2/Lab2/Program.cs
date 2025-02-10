@@ -15,12 +15,12 @@ class Program
                 Create a variable of type double and assign a value of your choosing to it.
                 Output the integer value onto the screen. Output the double variable onto the screen.
                 */
-                int myYear = 1997;// not printing the chosen variable
+                int myYear = 1997;
                 double moYr = 5.16;
-                Console.WriteLine("myYear"); //not printing the chosen variable
+                Console.WriteLine(myYear); //not printing the chosen variable because quotes were present
                 Console.WriteLine(moYr);
         //4. Create a string variable and assign a value of your choosing 
-
+                string
         //5. Create a boolean variable ...
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
