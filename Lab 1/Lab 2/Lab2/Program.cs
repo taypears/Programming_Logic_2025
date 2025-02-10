@@ -9,10 +9,16 @@ class Program
 
         /*2. Add a multi-line comment with your name, email address course number and CRN.
             TayeJa Pearson, S01322082@acad.tri-c.edu, 1050, 13078*/
-              Console.WriteLine("TayeJa Pearson S01322082@acad.tri-c.edu 1050 13078");
+                Console.WriteLine("TayeJa Pearson, S01322082@acad.tri-c.edu, 1050, 13078");
 
-        //3. Needs more: Create an integer variable to store a number that represents something significant to and assign it a number
-
+        /*3. Needs more: Create an integer variable to store a number that represents something significant to and assign it a number
+                Create a variable of type double and assign a value of your choosing to it.
+                Output the integer value onto the screen. Output the double variable onto the screen.
+                */
+                int myYear = 1997;// not printing the chosen variable
+                double moYr = 5.16;
+                Console.WriteLine("myYear"); //not printing the chosen variable
+                Console.WriteLine(moYr);
         //4. Create a string variable and assign a value of your choosing 
 
         //5. Create a boolean variable ...
