@@ -27,12 +27,20 @@ class Program
                 char myL = 'T'; //Single quotes to declare
                 Console.WriteLine (greeting);
                 Console.WriteLine(myL);
-        /*5. Create a boolean variable  and assign a value of your choosing to it. Output the boolean variable onto the screen.
+        /*5. Create a boolean variable and assign a value of your choosing to it. Output the boolean variable onto the screen.
                 Demonstrate the difference between Console.Write() and Console.WriteLine() statements by using each of them to display a sentence of your choosing.
                  In a multi-line comment statement, state the difference between them. Hint- what happens when you use .WriteLine() first versus when you use .Write() first. 
                 */
-                /*My response:
+                /*My response to prompt question:
+                        The difference is that the prompt without "Line", after terminating, does not go to a new line to start the next prompt.
+                        The next prompt can just begin in the same line where "Console.Write" terminated.
+                        The "Console.WriteLine" prompt, after terminating, will begin a new line.
                 */
+                bool isTheSkyBlue = true;
+                Console.WriteLine(isTheSkyBlue); //part 1 of prompt
+                Console.Write("After this prompt, ");//part 2 of prompt
+                Console.WriteLine("a new line is not added. But after this prompt, ...");
+                Console.WriteLine("a new line is started.");
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
             In your response, state exactly what is wrong with each line. Use the following code (Make sure you run the code)  
