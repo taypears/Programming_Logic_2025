@@ -20,7 +20,8 @@ class Program
                 Console.WriteLine(myYear); //not printing the chosen variable because quotes were present
                 Console.WriteLine(moYr);
         //4. Create a string variable and assign a value of your choosing 
-                string
+                string greeting = "Hello!";
+                Console.WriteLine (greeting);
         //5. Create a boolean variable ...
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
