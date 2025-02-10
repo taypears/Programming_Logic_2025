@@ -27,7 +27,12 @@ class Program
                 char myL = 'T'; //Single quotes to declare
                 Console.WriteLine (greeting);
                 Console.WriteLine(myL);
-        //5. Create a boolean variable ...
+        /*5. Create a boolean variable  and assign a value of your choosing to it. Output the boolean variable onto the screen.
+                Demonstrate the difference between Console.Write() and Console.WriteLine() statements by using each of them to display a sentence of your choosing.
+                 In a multi-line comment statement, state the difference between them. Hint- what happens when you use .WriteLine() first versus when you use .Write() first. 
+                */
+                /*My response:
+                */
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
             In your response, state exactly what is wrong with each line. Use the following code (Make sure you run the code)  
