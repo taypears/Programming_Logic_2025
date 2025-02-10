@@ -19,9 +19,14 @@ class Program
                 double moYr = 5.16;
                 Console.WriteLine(myYear); //not printing the chosen variable because quotes were present
                 Console.WriteLine(moYr);
-        //4. Create a string variable and assign a value of your choosing 
+        /*4. Create a string variable and assign a value of your choosing to it.
+                Create a variable of type char and assign a value of your choosing to it.
+                Output the string variable onto the screen. Output the char variable onto the screen.
+                */
                 string greeting = "Hello!";
+                char myL = 'T'; //Single quotes to declare
                 Console.WriteLine (greeting);
+                Console.WriteLine(myL);
         //5. Create a boolean variable ...
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
