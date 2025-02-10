@@ -43,11 +43,11 @@ class Program
                 Console.WriteLine("a new line is started.");
 
         /*6. In a multi-line comment state what happens in a C# program when C# syntax is incorrectly used. 
-            In your response, state exactly what is wrong with each line. Use the following code (Make sure you run the code)  
+            In your response, state exactly what is wrong with each line. Use the following code (Make sure you run the code) */ 
 
-
-            If there are syntax errors, it is possible that the code will not run at all. 
-            Since C# is case-sensitive, if a single element is not capitalized it can cause a syntax error.
+                /*
+            If there are syntax errors, the code will not run at all. 
+            Since C# is case-sensitive, if a single element is not capitalized it can cause a syntax error because capitalization can indicate a different command.
             Also shown below, if quotations and parenthesis aren't used appropriately or if the ending semicolon is missing then it could also cause an error in the code.
             These errors could cause the code to be non-functional.
             
