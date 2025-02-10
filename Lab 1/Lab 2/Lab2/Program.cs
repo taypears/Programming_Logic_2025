@@ -48,7 +48,7 @@ class Program
 
             If there are syntax errors, it is possible that the code will not run at all. 
             Since C# is case-sensitive, if a single element is not capitalized it can cause a syntax error.
-            Also shown below, if quotations and parenthesis aren't used appropriately or if the ending semicolon is missing then it could also cause an error in the code as shown below.
+            Also shown below, if quotations and parenthesis aren't used appropriately or if the ending semicolon is missing then it could also cause an error in the code.
             These errors could cause the code to be non-functional.
             
             console.WriteLine("Hello World!"); -> The "C" is not capitalizd in Console
