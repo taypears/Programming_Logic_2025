@@ -19,12 +19,21 @@ class Program
         */
             string firstName = "TayeJa";
             string lastName = "Pearson";
-            Console.WriteLine ("My name is" firstName + lastName);
+            Console.WriteLine ("My name is" {firstName} + {lastName});
 
     /* 4. Create two integer variables and assign values of your choosing to both integers. 
         Output the following- the sum of the two integers, the difference of the two integers, 
         the product of the two integers and the result of dividing one integer by the second integer.
         In your output, specify what each answer represents and output the two integers that you used.
+    */
+            int a = 5;
+            int b = 16;
+            Console.WriteLine("The sum of the two integers is" + (a + b));
+            Console.WriteLine("The difference of the two integers is" + (a - b));
+            Console.WriteLine("The product of the two integers is" + (a * b));
+            Console.WriteLine("The quotient of the two integers is" + (a / b));
+
+
     /* 5. Display a prompt to a user for a number input. Take the user’s input and convert it to an integer.
             Evaluate and display the result of the expression - nine times the number entered, minus twice
              the number entered, plus the sum of the digits in your age.
