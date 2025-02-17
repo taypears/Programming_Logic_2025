@@ -28,6 +28,7 @@ class Program
     */
             int a = 5;
             int b = 16;
+            Console.WriteLine ("For the following arithmetic problems, the variables used are a=" + {a} + "and b which equals" + {b});
             Console.WriteLine("The sum of the two integers is" + (a + b));
             Console.WriteLine("The difference of the two integers is" + (a - b));
             Console.WriteLine("The product of the two integers is" + (a * b));
@@ -38,16 +39,18 @@ class Program
             Evaluate and display the result of the expression - nine times the number entered, minus twice
              the number entered, plus the sum of the digits in your age.
         */
+
     /* 6. Using the newline escape character and the tab escape character, output a list of courses 
             that you are registered for in Spring 2025 semester or subsequent semesters. 
             Use one Console.WriteLine statement to output your course list. Your course list 
             must be on separate lines with course names on the left and their corresponding
              course titles to the right.
         */
+
     /* 7. Assign values to two string variables and use string interpolation ($) to combine 
         the two string variables and output the result of combining the two string variables.
          Use meaningful names for your variables.
-    */
+        */
 
 
     }
