@@ -6,11 +6,10 @@ class Program
     {
 
     /* 1. Include your name, course number and course CRN as a comment in your code. 
-            You can use either single line or multi line comments.
+            You can use either single line or multi line comments.*/
 
-            TayeJa Pearson, (yes the "J" is supposed to be capitalized in my name)
-            [IT 1050 CRN 13078]
-    */
+            /*TayeJa Pearson, (yes the "J" is supposed to be capitalized in my name)
+            [IT 1050 CRN 13078]*/
 
     /* 2. Include the instructions for each step as a comment in your code. 
             You can use either single line or multi line comments.
@@ -25,7 +24,7 @@ class Program
             int d = 2;
             int e = 6;
             int sum = a+b+c+d+e;
-            Console.WriteLine (sum);
+            Console.WriteLine ("The sum of the 5 integer variables is " + sum + ".");
 
     /*4. Create a string variable to store your favorite color and assign your favorite color to it.
             Create another variable to store your favorite food and assign your favorite food to it.
@@ -33,7 +32,7 @@ class Program
             and output a complete sentence that states your favorite color and your favorite food.
     */
             string favColor = "Emerald Green";
-            string favFood = "Macaroni and cheese";
+            string favFood = "birria tacos";
             string mySentence = $"My favorite color is {favColor} and my favorite food is {favFood}.";
             Console.WriteLine (mySentence);
 
@@ -48,9 +47,10 @@ class Program
 
     /*6. Prompt a user to enter an integer value, then double the value, subtract 10 and display the result.
     */
-            Console.WriteLine("Enter an integer:");
+            Console.WriteLine("Please enter an integer:");
             int userInput = Convert.ToInt32 (Console.ReadLine ());
-            Console.WriteLine((userInput*2)-10);
+            int answer = ((userInput*2)-10);
+            Console.WriteLine(answer);
 
     }
 }
