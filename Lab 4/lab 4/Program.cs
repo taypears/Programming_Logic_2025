@@ -17,6 +17,10 @@ class Program
         Use the string concatenation operator (+) to combine them and output the result. 
         Display the length of each string. Display the concatenated string in uppercase letters.
         */
+            string firstName = "TayeJa";
+            string lastName = "Pearson";
+            Console.WriteLine ("My name is" firstName + lastName);
+
     /* 4. Create two integer variables and assign values of your choosing to both integers. 
         Output the following- the sum of the two integers, the difference of the two integers, 
         the product of the two integers and the result of dividing one integer by the second integer.
