@@ -8,7 +8,7 @@ class Program
     /* 1. Include your name, course number and course CRN as a comment in your code. 
             You can use either single line or multi line comments.*/
 
-            /*TayeJa Pearson, (yes the "J" is supposed to be capitalized in my name)
+            /*TayeJa Pearson, (yes, the "J" is supposed to be capitalized in my name)
             [IT 1050 CRN 13078]*/
 
     /* 2. Include the instructions for each step as a comment in your code. 
