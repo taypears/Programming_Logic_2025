@@ -1,0 +1,5 @@
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 4\lab 4\obj\Debug\net9.0\lab 4.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 4\lab 4\obj\Debug\net9.0\lab 4.AssemblyInfoInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 4\lab 4\obj\Debug\net9.0\lab 4.AssemblyInfo.cs
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 4\lab 4\obj\Debug\net9.0\lab 4.csproj.CoreCompileInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab 4\lab 4\obj\Debug\net9.0\lab 4.sourcelink.json
