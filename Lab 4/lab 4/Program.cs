@@ -40,7 +40,10 @@ class Program
              the number entered, plus the sum of the digits in your age.
         */
             Console.WriteLine ("Please enter a number:");
-            string input = Console.ReadLine ()
+            int userInput = Convert.ToInt32 (Console.ReadLine ());
+            int answer = (((userInput*9)-(userInput*2))+10);
+            Console.WriteLine(answer);
+
 
     /* 6. Using the newline escape character and the tab escape character, output a list of courses 
             that you are registered for in Spring 2025 semester or subsequent semesters. 
