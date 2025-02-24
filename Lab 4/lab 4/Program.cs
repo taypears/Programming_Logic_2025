@@ -28,17 +28,19 @@ class Program
     */
             int a = 5;
             int b = 16;
-            Console.WriteLine ("For the following arithmetic problems, the variables used are a=" + {a} + "and b which equals" + {b});
-            Console.WriteLine("The sum of the two integers is" + (a + b));
-            Console.WriteLine("The difference of the two integers is" + (a - b));
-            Console.WriteLine("The product of the two integers is" + (a * b));
-            Console.WriteLine("The quotient of the two integers is" + (a / b));
+            Console.WriteLine ("For the following arithmetic problems, the variables used are a which equals" + {a} + "and b which equals" + {b});
+            Console.WriteLine("The sum of the two integers is " + (a + b));
+            Console.WriteLine("The difference of the two integers is " + (a - b));
+            Console.WriteLine("The product of the two integers is " + (a * b));
+            Console.WriteLine("The quotient of the two integers is " + (a / b));
 
 
     /* 5. Display a prompt to a user for a number input. Take the user’s input and convert it to an integer.
             Evaluate and display the result of the expression - nine times the number entered, minus twice
              the number entered, plus the sum of the digits in your age.
         */
+            Console.WriteLine ("Please enter a number:");
+            string input = Console.ReadLine ()
 
     /* 6. Using the newline escape character and the tab escape character, output a list of courses 
             that you are registered for in Spring 2025 semester or subsequent semesters. 
