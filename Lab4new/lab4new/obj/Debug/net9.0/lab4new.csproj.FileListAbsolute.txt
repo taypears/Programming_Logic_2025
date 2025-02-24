@@ -1,0 +1,15 @@
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\bin\Debug\net9.0\lab4new.exe
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\bin\Debug\net9.0\lab4new.deps.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\bin\Debug\net9.0\lab4new.runtimeconfig.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\bin\Debug\net9.0\lab4new.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\bin\Debug\net9.0\lab4new.pdb
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.AssemblyInfoInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.AssemblyInfo.cs
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.csproj.CoreCompileInputs.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.sourcelink.json
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\refint\lab4new.dll
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.pdb
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\lab4new.genruntimeconfig.cache
+c:\Users\TayeJa\Documents\Programming_Logic_2025\Lab4new\lab4new\obj\Debug\net9.0\ref\lab4new.dll
