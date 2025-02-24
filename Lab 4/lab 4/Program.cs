@@ -19,7 +19,7 @@ class Program
         */
             string firstName = "TayeJa";
             string lastName = "Pearson";
-            Console.WriteLine ("My name is" {firstName} + {lastName});
+            Console.WriteLine ("My name is", firstName + lastName);
 
     /* 4. Create two integer variables and assign values of your choosing to both integers. 
         Output the following- the sum of the two integers, the difference of the two integers, 
@@ -28,7 +28,7 @@ class Program
     */
             int a = 5;
             int b = 16;
-            Console.WriteLine ("For the following arithmetic problems, the variables used are a which equals" + {a} + "and b which equals" + {b});
+            Console.WriteLine ("For the following arithmetic problems, the variables used are a which equals" + a + "and b which equals" + b);
             Console.WriteLine("The sum of the two integers is " + (a + b));
             Console.WriteLine("The difference of the two integers is " + (a - b));
             Console.WriteLine("The product of the two integers is " + (a * b));
