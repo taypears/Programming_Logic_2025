@@ -17,7 +17,12 @@ class Program
         */
             string firstName = "TayeJa";
             string lastName = "Pearson";
-            Console.WriteLine ("My name is " + firstName + " " + lastName);
+            string name = firstName + " " + lastName;
+            Console.WriteLine (name);
+            Console.WriteLine ("The length of the first string is " + firstName.Length);
+            Console.WriteLine ("The length of the second string is " + lastName.Length);
+            Console.WriteLine ("The length of both strings combined, including the space between the two, are " + name.Length);
+            Console.WriteLine (name.ToUpper());
 
     /* 4. Create two integer variables and assign values of your choosing to both integers. 
         Output the following- the sum of the two integers, the difference of the two integers, 
@@ -26,11 +31,11 @@ class Program
     */
             int a = 5;
             int b = 16;
-            Console.WriteLine ("For the following arithmetic problems, the variables used are a which equals " + a + " and b which equals " + b);
+            Console.WriteLine ("For the following arithmetic problems, the variables used are \"a\" which equals " + a + " and \"b\" which equals " + b);
             Console.WriteLine("The sum of the two integers is " + (a + b));
             Console.WriteLine("The difference of the two integers is " + (a - b));
             Console.WriteLine("The product of the two integers is " + (a * b));
-            Console.WriteLine("The quotient of the two integers is " + (a / b));
+            Console.WriteLine("The quotient of b\\a is " + (b/a));
 
 
     /* 5. Display a prompt to a user for a number input. Take the user’s input and convert it to an integer.
@@ -49,10 +54,17 @@ class Program
             must be on separate lines with course names on the left and their corresponding
              course titles to the right.
         */
+        Console.WriteLine (
+            "IT-2310 \t Web Programming\n IT-1025 \t Information Technology Concepts for Programmers\n IT-1050\t Programming Logic"
+        );
 
     /* 7. Assign values to two string variables and use string interpolation ($) to combine 
         the two string variables and output the result of combining the two string variables.
          Use meaningful names for your variables.
         */
+        string part1 = "apples";
+        string part2 = "oranges";
+        string sentence=$"You can't compare {part1} and {part2}. They are incomparable.";
+        Console.WriteLine (sentence);
     }
 }
