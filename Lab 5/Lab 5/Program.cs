@@ -18,7 +18,7 @@ class Program
                 int temp2 = 25;
 
                 if (temp2 < temp1)
-                    {Console.WriteLine ("COLD WEATHER!")};
+                    {Console.WriteLine ("COLD WEATHER!");}
 
         /* 4. Create a Boolean variable named checkAge, assign a value to it and use an if-else 
                 statement to determine if a person is an adult or not. If checkAge is true, output 
