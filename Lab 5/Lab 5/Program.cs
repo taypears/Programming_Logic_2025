@@ -38,37 +38,63 @@ class Program
                 Level 4 – Stroke Improvement
                 Level 5 – Stroke Refinement
                 Level 6 - Swimming and Skill Proficiency*/
-
+                {   int level = 4; // $ is an example value
+                switch (level)
+        {   case 1:
+                Console.WriteLine(" Introduction to Water Skills");
+                break;
+            case 2:
+               Console.WriteLine(" Fundamental Aquatic Skills");
+               break;
+            case 3:
+                Console.WriteLine(" Stroke Development");
+                break;
+            case 4:
+                Console.WriteLine(" Stroke Improvement");
+                break;
+            case 5:
+                Console.WriteLine(" Stroke Refinement");
+                break;
+            case 6:
+                Console.WriteLine(" Swimming and Skill Proficiency");
+                break;
+        }
+                }
                 
 
         /* 6. Convert the switch statement in step 5 to an if-else if-else statement.
                 ***This code may be right ... DOUBLE CHECK!! */
-                int carSpeed = 102;
+        { int level = 4;
 
-            if (carSpeed >= 130 && carSpeed <= 200)
-            {
-                Console.WriteLine("Accident");
-            }
-            else if (carSpeed >= 110 && carSpeed <= 129)
-            {
-                Console.WriteLine("Police");
-            }
-            else if (carSpeed >= 100 && carSpeed <= 109)
-            {
-                Console.WriteLine("Casual Highway");
-            }
-            else if (carSpeed >= 50 && carSpeed <= 99)
-            {
-                Console.WriteLine("Just OK");
-            }
-            else if (carSpeed >= 0 && carSpeed <= 49)
-            {
-                Console.WriteLine("Slow Poke");
-            }
-            else
-            {
-                Console.WriteLine("Out of Range");
-            }
-
+            if (level == 1)
+                {
+                Console.WriteLine(" Introduction to Water Skills");
+                }
+            else if (level == 2)
+                {
+                Console.WriteLine(" Fundamental Aquatic Skills");
+                }
+            else if (level == 3)
+                {
+                Console.WriteLine(" Stroke Development");
+                }
+            else if (level == 4)
+                {
+                Console.WriteLine(" Stroke Improvement");
+                }
+            else if (level == 5)
+                {
+                Console.WriteLine(" Stroke Refinement");
+                }
+            else if (level == 6)
+                {
+                Console.WriteLine(" Swimming and Skill Proficiency");
+                }
+             else
+                {
+                Console.WriteLine("Please enter a level between 1 and 6.");
+                }
+        }
+        
     }
 }
