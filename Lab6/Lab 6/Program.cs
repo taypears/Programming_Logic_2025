@@ -17,10 +17,12 @@ class Program
                 int y = 10;
                 int x = 20;
                 if (x<y);
-                    { Console.WriteLine(“x is less than y.”); }
+                    { 
+                        Console.WriteLine("x is less than y."); 
+                    }
                 Console.WriteLine(x+y);
-                Console.WriteLine (“The value of x is ” + x);
-                Console.WriteLine (“The value of y is ” + y);
+                Console.WriteLine ("The value of x is "+ x);
+                Console.WriteLine ("The value of y is "+ y);
 
             }
 
@@ -29,12 +31,12 @@ class Program
         that specifies the relationship. Your message must include the numbers being used. For example,
         if the two numbers are 1 and 2, the message printed out would be 1 is less than 2. */
             {
-                input1 = 16;
-                input2 = 5;
+                int input1 = 16;
+                int input2 = 5;
                 if (input1 >input2);
-                    { Console.WriteLine(“Input 1 is greater than Input 2.”); }
-                Console.WriteLine (“The value of Input 1 is ” + x);
-                Console.WriteLine (“The value of Input 2 is ” + y);
+                    { Console.WriteLine("Input 1 is greater than Input 2."); }
+                Console.WriteLine ("The value of Input 1 is " + x);
+                Console.WriteLine ("The value of Input 2 is " + y);
 
             }
 
