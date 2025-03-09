@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         /*1.  Include your name, course number and CRN as a comment in your code. */
-            /*TayeJa Pearson [IT1050 CRN 13078 ]*/
+            //TayeJa Pearson [IT1050 CRN 13078 ]
 
         /*2.  Include the instructions for each step as a comment in your code. */
 
