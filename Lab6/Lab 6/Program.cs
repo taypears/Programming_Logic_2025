@@ -16,7 +16,7 @@ class Program
             {
                 int y = 10;
                 int x = 20;
-                if (x<y);
+                if (x<y)
                     { 
                         Console.WriteLine("x is less than y."); 
                     }
@@ -33,10 +33,10 @@ class Program
             {
                 int input1 = 16;
                 int input2 = 5;
-                if (input1 >input2);
+                if (input1 >input2)
                     { Console.WriteLine("Input 1 is greater than Input 2."); }
-                Console.WriteLine ("The value of Input 1 is " + x);
-                Console.WriteLine ("The value of Input 2 is " + y);
+                Console.WriteLine ("The value of Input 1 is " + input1);
+                Console.WriteLine ("The value of Input 2 is " + input2);
 
             }
 
