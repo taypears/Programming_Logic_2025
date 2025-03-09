@@ -50,7 +50,7 @@ class Program
                 More than 12 - College
         Print a message to indicate bad data as well. Prompt the user for an input. */
             {
-                Console.ReadLine();
+                Console.ReadLine(); //Takes a user input into the program
                 // ConvertTo32
             }
                 /*6.    Use a switch statement to output one of the following values for coding/programming skill levels 
