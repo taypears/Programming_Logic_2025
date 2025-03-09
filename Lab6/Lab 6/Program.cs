@@ -20,6 +20,7 @@ class Program
                     { 
                         Console.WriteLine("Variable 1 is less than variable 2."); 
                     }
+                    
                 Console.WriteLine("The sum of the two variables is " + (var1+var2) +".");
                 Console.WriteLine ("The value of Variable 1 is "+ var1 +".");
                 Console.WriteLine ("The value of Variable 2 is "+ var2 +".");
