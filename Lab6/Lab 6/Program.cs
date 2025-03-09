@@ -9,7 +9,10 @@ class Program
 
         /*2.  Include the instructions for each step as a comment in your code. */
 
-        /*3.  Create two integer variables. Assign values to them. Use an if statement to compare the two integer variables. In the body of the if statement add the greater number to the smaller number and display the result.  In addition, display the two integer values that you are using.*/
+        /*3.  Create two integer variables. Assign values to them. Use an if statement to compare
+         the two integer variables. In the body of the if statement add the greater number to the 
+         smaller number and display the result.  In addition, display the two integer values that 
+         you are using.*/
             {
                 int y = 10;
                 int x = 20;
@@ -20,7 +23,11 @@ class Program
                 Console.WriteLine (“The value of y is ” + y);
 
             }
-        /*4. Using two integer variables with different values assigned to them, use an if-else statement to determine how the first number relates to the second number and print a message that specifies the relationship. Your message must include the numbers being used. For example, if the two numbers are 1 and 2, the message printed out would be 1 is less than 2. */
+
+        /*4. Using two integer variables with different values assigned to them, use an if-else 
+        statement to determine how the first number relates to the second number and print a message 
+        that specifies the relationship. Your message must include the numbers being used. For example,
+        if the two numbers are 1 and 2, the message printed out would be 1 is less than 2. */
             {
                 input1 = 16;
                 input2 = 5;
@@ -30,21 +37,26 @@ class Program
                 Console.WriteLine (“The value of Input 2 is ” + y);
 
             }
-        /*5.  Use an if-else if-else statement to print a message that displays the educational level of a student based on the student’s number of years of schooling as given below in the table: 
-        Number of years of schooling
-        Educational Level
-        0
-        None
-        1-5
-        Elementary School
-        6-8
-        Middle School
-        9-12
-        High School
-        More than 12
-        College
 
-Print a message to indicate bad data as well. Prompt the user for an input. */
+        /*5.  Use an if-else if-else statement to print a message that displays the educational level 
+        of a student based on the student’s number of years of schooling as given below in the table: 
+        Number of years of schooling - Educational Level
+                0 - None
+                1-5 - Elementary School
+                6-8 - Middle School
+                9-12 - High School
+                More than 12 - College
+        Print a message to indicate bad data as well. Prompt the user for an input. */
+            {
+                Console.ReadLine();
+                // ConvertTo32
+            }
+                /*6.    Use a switch statement to output one of the following values for coding/programming skill levels 
+                Level 1 – Unworkable code
+                Level 2 – Workable Code
+                Level 3 – Good performance and secured code
+                Level 4 – Standard and reusable code
+                Level 5 – Easy to understand and Scalable code*/
 
     }
 }
