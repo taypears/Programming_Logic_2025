@@ -20,7 +20,7 @@ class Program
                     { 
                         Console.WriteLine("Variable 1 is less than variable 2."); 
                     }
-                    
+
                 Console.WriteLine("The sum of the two variables is " + (var1+var2) +".");
                 Console.WriteLine ("The value of Variable 1 is "+ var1 +".");
                 Console.WriteLine ("The value of Variable 2 is "+ var2 +".");
@@ -45,8 +45,8 @@ class Program
                 else {
                     Console.WriteLine ("Input 1 is less than Input 2.");
                 }
-                Console.WriteLine ("The value of Input 1 is " + input1);
-                Console.WriteLine ("The value of Input 2 is " + input2);
+                Console.WriteLine ("The value of Input 1 is " + input1 + ".");
+                Console.WriteLine ("The value of Input 2 is " + input2 + ".");
 
             }
 
