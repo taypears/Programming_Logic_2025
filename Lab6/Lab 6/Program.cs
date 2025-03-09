@@ -14,15 +14,15 @@ class Program
          smaller number and display the result.  In addition, display the two integer values that 
          you are using.*/
             {
-                int y = 10;
-                int x = 20;
-                if (x<y)
+                int var1 = 10;
+                int var2 = 20;
+                if (var2>var1)
                     { 
-                        Console.WriteLine("x is less than y."); 
+                        Console.WriteLine("Variable 1 is less than variable 2."); 
                     }
-                Console.WriteLine(x+y);
-                Console.WriteLine ("The value of x is "+ x);
-                Console.WriteLine ("The value of y is "+ y);
+                Console.WriteLine(var1+var2);
+                Console.WriteLine ("The value of Variable 1 is "+ var1);
+                Console.WriteLine ("The value of Variable 2 is "+ var2);
 
             }
 
@@ -34,7 +34,9 @@ class Program
                 int input1 = 16;
                 int input2 = 5;
                 if (input1 >input2)
-                    { Console.WriteLine("Input 1 is greater than Input 2."); }
+                    { 
+                        Console.WriteLine("Input 1 is greater than Input 2."); 
+                    }
                 Console.WriteLine ("The value of Input 1 is " + input1);
                 Console.WriteLine ("The value of Input 2 is " + input2);
 
@@ -50,15 +52,62 @@ class Program
                 More than 12 - College
         Print a message to indicate bad data as well. Prompt the user for an input. */
             {
-                Console.ReadLine(); //Takes a user input into the program
-                // ConvertTo32
+                Console.WriteLine ("Enter the student's number of years in school: ");
+                int years = Convert.ToInt32 (Console.ReadLine ()); //Takes a user input into the program
+                if (years == 0) 
+                    {
+                        Console.WriteLine ("None");
+                    }
+                else if (years>= 1 && years<=5) 
+                   {
+                        Console.WriteLine ("Elementary School");
+                    }
+                else if (years>= 6 && years<=8) 
+                   {
+                        Console.WriteLine ("Middle School");
+                    }
+                else if (years>= 9 && years<=12) 
+                   {
+                        Console.WriteLine ("High School");
+                    }
+                else if (years>= 13) 
+                   {
+                        Console.WriteLine ("College");
+                    }  
+                else
+                {
+                        Console.WriteLine ("Please enter a valid number.");
+                }
             }
-                /*6.    Use a switch statement to output one of the following values for coding/programming skill levels 
+        /*6.    Use a switch statement to output one of the following values for coding/programming skill levels 
                 Level 1 – Unworkable code
                 Level 2 – Workable Code
                 Level 3 – Good performance and secured code
                 Level 4 – Standard and reusable code
                 Level 5 – Easy to understand and Scalable code*/
 
+                {
+                    Console.WriteLine ("Enter your coding/programming skill level: ");
+                    int level = Convert.ToInt32 (Console.ReadLine ()); //Takes a user input into the program
+                    switch (level)
+                    {
+                        case 1:
+                            Console.WriteLine(" Unworkable code");
+                            break;
+                        case 2:
+                            Console.WriteLine(" Workable Code");
+                            break;
+                        case 3:
+                            Console.WriteLine(" Good performance and secured code");
+                            break;
+                        case 4:
+                            Console.WriteLine(" Standard and reusable code");
+                            break;
+                        case 5:
+                            Console.WriteLine(" Easy to understand and Scalable code");
+                            break;
+                    }
+                    
+                }
     }
 }
