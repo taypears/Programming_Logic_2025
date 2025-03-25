@@ -64,16 +64,16 @@ class Program
                     }*/
 
             for (int l = 1; l <= 50; l++) 
-               {
-                    Console.WriteLine (l);
-               }
-                if (divbyfour % 4 == 0) 
+             /*  {
+                    Console.WriteLine (l  = divbyfour);
+               } */
+               if (l % 4 == 0) 
                     { 
-                    Console.WriteLine($"{divbyfour} is divisible by 4.");
+                    Console.WriteLine($"{l} is divisible by 4.");
                     }
                 else 
                     {
-                    Console.WriteLine($"{divbyfour } is not divisible by 4.");
+                    Console.WriteLine($"{l} is not divisible by 4.");
                     }
                
 
