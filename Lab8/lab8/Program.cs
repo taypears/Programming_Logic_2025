@@ -34,14 +34,16 @@ class Program
 
         /*5. Use a while loop to print 12 numbers starting from the number 99 with the difference between the numbers being 8 and the numbers are counting down. Print all 12 numbers on one line with a space between the values for readability. Make sure that the output for the next step does not combine with the output for step 5. */ 
 
-            int k =	 99; 
-            while (k > 3) 
+            int i =	99;
+            int count = 1;
+            while (count <= 12) 
                 { 
-                Console.Write(k + " "); 
-                k -= 8; 
+                    Console.Write(i + " "); 
+                    i -= 8; 
+                    count ++;
                 } 
                 { 
-                Console.WriteLine (" "); 
+                    Console.WriteLine (" "); 
                 } 
 
         /*6. Use a for loop to print values from 20 to 1. The printed values must all be on one line with one space between the values. Make sure that the output for the next step does not combine with the output for step 7. */ 
