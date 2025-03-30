@@ -58,47 +58,52 @@ class Program
         /*7a. Use a while loop to accomplish the following task - use a 5-digit integer variable to store a password and assign a value to it. Then prompt a user to enter the password which must match the stored password. The user has only three tries to match the stored password. If the user correctly matches the stored password, print a message letting the user know they entered the correct password. You must also let the user know how many tries they have remaining. After three tries of incorrectly matching the stored password, print a message letting the user know that there are no more chances to try to match the password. */ 
 
 
-            int Pwd = 51997; //sets password to 51997
-            int attempt = 3; //sets number of attempts to 3
+            // int Pwd = 51997; //sets password to 51997
+            // int attempt = 3; //sets number of attempts to 3
            
-                Console.WriteLine("Please enter your password:");
-                int userInput = Convert.ToInt32 (Console.ReadLine ());
-                while (attempt > 0) //while loop that runs while attempts are greater than 0
-                    {
-                    if (userInput == Pwd) //checks if user input matches password
-                        { 
-                        Console.WriteLine("The password you entered is correct."); 
-                        break; 
-                        } 
-                    else 
-                        { 
-                        attempt--; //Decrements remaining attempts and prints remaining amount of attempts to the screen
-                        Console.WriteLine("Invalid Input. You have " + attempt + " attempts remaining. **Hint, it is a 5 digit number**"); 
-                        }
-                    if (attempt == 0) //Conditions for when attempts reach 0
-                        {
-                        Console.WriteLine("You have zero remaining attempts. Your account is now locked. Please contact your administrator to regain access."); 
-                        }
-                    }
+            //     Console.WriteLine("Please enter your password:");
+            //     int userInput = Convert.ToInt32 (Console.ReadLine ());
+            //     while (attempt > 0) //while loop that runs while attempts are greater than 0
+            //         {
+            //         if (userInput == Pwd) //checks if user input matches password
+            //             { 
+            //             Console.WriteLine("The password you entered is correct."); 
+            //             break; 
+            //             } 
+            //         else 
+            //             { 
+            //             attempt--; //Decrements remaining attempts and prints remaining amount of attempts to the screen
+            //             Console.WriteLine("Invalid Input. You have " + attempt + " attempts remaining. **Hint, it is a 5 digit number**"); 
+            //             }
+            //         if (attempt == 0) //Conditions for when attempts reach 0
+            //             {
+            //             Console.WriteLine("You have zero remaining attempts. Your account is now locked. Please contact your administrator to regain access."); 
+            //             }
+            //         }
         /*7b. Use a while loop to accomplish the following task - use a 5-digit integer variable to store a password and assign a value to it. Then prompt a user to enter the password which must match the stored password. The user has only three tries to match the stored password. If the user correctly matches the stored password, print a message letting the user know they entered the correct password. You must also let the user know how many tries they have remaining. After three tries of incorrectly matching the stored password, print a message letting the user know that there are no more chances to try to match the password. */ 
             
-          
-                bool hasvalidinput = false; 
-                while (true)
-                {
+                int Pwd1 = 51997; //sets password to 51997
+                bool userInp = false;
+                int counter = 3;
+                    while (true)
+                    {
                     Console.WriteLine("Please enter your password:");
                     int userInput1 = Convert.ToInt32 (Console.ReadLine ());
-                    int Pwd1 = 51997; //sets password to 51997
-
+                
                     if(userInput1 == Pwd1) 
                         {
-                            hasvalidinput = true; //sets hasvalidinput to true if user input matches password
+                            userInp = true; //sets userInp to true if user input matches password
                         Console.WriteLine("The password you entered is correct.");  
                         break; //breaks out of the loop if user input matches password
                         }
                     else 
                         {
-                            Console.WriteLine ("Invalid input."); //You have attempts remaining. **Hint, it is a 5 digit number**"
+                            for (counter=3; counter> 0;) 
+                                {
+                                counter--;
+                                Console.WriteLine ("Invalid input. You have " + counter + " attempts remaining. **Hint, it is a 5 digit number**");
+                                break;
+                                }
                         }
                 }
 
