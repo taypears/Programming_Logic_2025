@@ -24,13 +24,13 @@ class Program
 
         /*4. Use a for loop to print 10 consecutive numbers that are multiples of 4.  Make sure that the output for the next step does not combine with the output for step 4. */ 
 
-            for( int j=4; j <= 40; j +=4) 
-                { 
-                Console.Write(j + " "); 
-                } 
-                { 
-                Console.WriteLine (" "); 
-                } 
+            for (int i = 1; i <= 10; ++i) 
+                  {
+                    Console.Write(i * 4 + " ");  
+                  }
+                    {
+                      Console.WriteLine( );
+                    }
 
         /*5. Use a while loop to print 12 numbers starting from the number 99 with the difference between the numbers being 8 and the numbers are counting down. Print all 12 numbers on one line with a space between the values for readability. Make sure that the output for the next step does not combine with the output for step 5. */ 
 
