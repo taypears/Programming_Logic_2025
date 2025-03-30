@@ -12,14 +12,15 @@ class Program
         /*3. Use a while loop to print the first eight multiples of 5 all on one line with one space between them for readability. Make sure that the output for the next step does not combine with the output for step 3.*/ 
 
             int i = 5; 
-                while (i <= 40) 
+            int counter = 1;
+                while (counter <= 8) 
                     { 
-                    Console.Write(i + " "); 
-                    i += 5; 
-                    } 
-                { 
-                Console.WriteLine (" "); 
-                } 
+                    Console.Write(i * counter + " "); 
+                    counter ++;
+                    }
+                    {
+                        Console.WriteLine (" ");
+                    }
 
         /*4. Use a for loop to print 10 consecutive numbers that are multiples of 4.  Make sure that the output for the next step does not combine with the output for step 4. */ 
 
