@@ -75,11 +75,11 @@ class Program
 
                     The output would be the following
 
-                    Vinegar         3.47
-                    Trash bags    6.97
-                    Milk               2.60
+                    Vinegar      3.47
+                    Trash bags   6.97
+                    Milk         2.60
                     Paper Towels 2.58
-                    Bagels            3.97 */
+                    Bagels       3.97 */
 
             string [] products = new string[5]; // Declared array with string size 5
             products[0] = "Vinegar";
@@ -109,10 +109,10 @@ class Program
             You may include the column and row headings in your printout. Make sure to put spaces between the values in your printout. */
 
             int [,] StudentScores = { {75, 82, 90}, {88, 89, 92}, {65, 70, 74} };
-            Console.WriteLine ("Test 1 Test 2 Test 3"); // Column headings
-            Console.WriteLine ("Student 1   " + StudentScores[0,0] + " " + StudentScores[0,1] + " " + StudentScores[0,2]); // Row 1
-            Console.WriteLine ("Student 2   " + StudentScores[1,0] + " " + StudentScores[1,1] + " " + StudentScores[1,2]); // Row 2
-            Console.WriteLine ("Student 3   " + StudentScores[2,0] + " " + StudentScores[2,1] + " " + StudentScores[2,2]); // Row 3
+                Console.WriteLine ("Test 1 Test 2 Test 3"); // Column headings
+                Console.WriteLine ("Student 1   " + StudentScores[0,0] + " " + StudentScores[0,1] + " " + StudentScores[0,2]); // Row 1
+                Console.WriteLine ("Student 2   " + StudentScores[1,0] + " " + StudentScores[1,1] + " " + StudentScores[1,2]); // Row 2
+                Console.WriteLine ("Student 3   " + StudentScores[2,0] + " " + StudentScores[2,1] + " " + StudentScores[2,2]); // Row 3
             
             
     }
