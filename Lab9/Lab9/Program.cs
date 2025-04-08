@@ -106,6 +106,9 @@ class Program
 
             int [,] StudentScores = { {75, 82, 90}, {88, 89, 92}, {65, 70, 74} };
             Console.WriteLine ("Test 1 Test 2 Test 3"); // Column headings
+            Console.WriteLine ("Student 1 " + StudentScores[0,0] + " " + StudentScores[0,1] + " " + StudentScores[0,2]); // Row 1
+            Console.WriteLine ("Student 2 " + StudentScores[1,0] + " " + StudentScores[1,1] + " " + StudentScores[1,2]); // Row 2
+            Console.WriteLine ("Student 3 " + StudentScores[2,0] + " " + StudentScores[2,1] + " " + StudentScores[2,2]); // Row 3
             
             
     }
