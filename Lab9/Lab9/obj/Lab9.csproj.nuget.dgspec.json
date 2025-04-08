@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj": {}
+    "c:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj": {
+    "c:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj",
+        "projectUniqueName": "c:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj",
         "projectName": "Lab9",
-        "projectPath": "C:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj",
+        "projectPath": "c:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\Lab9.csproj",
         "packagesPath": "C:\\Users\\TayeJa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\obj\\",
+        "outputPath": "c:\\Users\\TayeJa\\Documents\\Programming_Logic_2025\\Lab9\\Lab9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TayeJa\\AppData\\Roaming\\NuGet\\NuGet.Config"

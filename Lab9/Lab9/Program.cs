@@ -14,7 +14,7 @@ class Program
 
             string [] courses = new string[6]; // Declared array with string size 6
             courses[0] = "IT1050"; //0 is the first element of the array
-            courses[1] = "IT1050"; 
+            courses[1] = "IT1025"; 
             courses[2] = "IT2310"; 
             courses[3] = "IT2320"; 
             courses[4] = "IT2351"; 
@@ -41,16 +41,17 @@ class Program
             {
                 Console.Write(age + " ");
             }
+            Console.WriteLine(); // separates question from next output
 
         /* 5. Create an array to store 7 different temperature values that represent winter temperatures in the Cleveland area. Give your array a descriptive name. Print the array values and the average of the 7 temperature values. */
 
             double [] temps = new double[7]; // Declared array with double size 7
             temps[0] = 16.5; 
             temps[1] = 20.0; 
-            temps[2] = 21.6; 
-            temps[3] = 23.6; 
-            temps[4] = 26.8; 
-            temps[5] = 27.4; 
+            temps[2] = 21.5; 
+            temps[3] = 23.0; 
+            temps[4] = 26.5; 
+            temps[5] = 27.0; 
             temps[6] = 29.5; 
 
            double tempSum = 0;
@@ -60,6 +61,9 @@ class Program
                 Console.Write(temp + " ");
                 tempSum = tempSum + temp; // Add each temperature to the sum
             }
+
+            Console.WriteLine(); // separates next output
+
             tempAvg = tempSum / temps.Count(); // Divide the sum by the number of temperatures to get the average
 
             Console.WriteLine("The average winter temperature in Cleveland is " + tempAvg + " degrees.");
@@ -106,9 +110,9 @@ class Program
 
             int [,] StudentScores = { {75, 82, 90}, {88, 89, 92}, {65, 70, 74} };
             Console.WriteLine ("Test 1 Test 2 Test 3"); // Column headings
-            Console.WriteLine ("Student 1 " + StudentScores[0,0] + " " + StudentScores[0,1] + " " + StudentScores[0,2]); // Row 1
-            Console.WriteLine ("Student 2 " + StudentScores[1,0] + " " + StudentScores[1,1] + " " + StudentScores[1,2]); // Row 2
-            Console.WriteLine ("Student 3 " + StudentScores[2,0] + " " + StudentScores[2,1] + " " + StudentScores[2,2]); // Row 3
+            Console.WriteLine ("Student 1   " + StudentScores[0,0] + " " + StudentScores[0,1] + " " + StudentScores[0,2]); // Row 1
+            Console.WriteLine ("Student 2   " + StudentScores[1,0] + " " + StudentScores[1,1] + " " + StudentScores[1,2]); // Row 2
+            Console.WriteLine ("Student 3   " + StudentScores[2,0] + " " + StudentScores[2,1] + " " + StudentScores[2,2]); // Row 3
             
             
     }
