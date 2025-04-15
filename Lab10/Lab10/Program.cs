@@ -12,18 +12,20 @@ class Program
         /*2. Include the instructions for each step as a comment in your code.*/
 
         /*3. Create a class named Order. Add a field called name to the Order class, use the public access modifier for the name field. Assign your name to the name field. */
-            Order order = new Order();
-            public order.name = "TayeJa Pearson";
+            public class Order
+            {
+                public string name = "TayeJa Pearson";
+            }
 
         /*4. Add a method called getOrder(). Have it return the title of your favorite book or textbook. Add a method called getOrderDesc(). Have it return a brief description of the favorite book/textbook that you used for getOrder() method. */
             public string getOrder()
             {
-                return "The Alchemist";
+                return "Twilight by Stephenie Meyer";
             }
 
             public string getOrderDesc()
             {
-                return "A novel by Paulo Coelho that tells the story of a shepherd named Santiago who dreams of finding treasure in Egypt.";
+                return "A series about a teen who moves to Forks, Washington and falls in love with a vampire in her class.";
             }
 
         /*5. Add a method called printOrderName. It should not return any values. In the body of the method, add the following line: Console.WriteLine(this.name); */
@@ -40,6 +42,6 @@ class Program
             Console.WriteLine(order1.getOrder());
             Console.WriteLine(order1.getOrderDesc());
             order1.printOrderName();
-            
+
     }
 }
