@@ -2,9 +2,8 @@
 
 class Program
 {
-    // static void Main(string[] args)
-    // { }
     
+
         /*1. Include your name, course number and CRN as a comment in your code.*/
                //TayeJa Pearson [IT1050 CRN 13078]
 
@@ -18,12 +17,12 @@ class Program
         /*4. Add a method called getOrder(). Have it return the title of your favorite book or textbook. Add a method called getOrderDesc(). Have it return a brief description of the favorite book/textbook that you used for getOrder() method. */
                 public string getOrder() //getOrder method created
                 {
-                    return "Twilight by Stephenie Meyer"; //book title returned
+                    return "Twilight"; //book title returned
                 }
 
                 public string getOrderDesc() //getOrderDesc method created
                 {
-                    return "A series about a teen who moves to Forks, Washington and falls in love with a vampire in her class."; //book description returned
+                    return "A book series about a teen who moves to Forks, Washington and falls in love with a vampire in her class and as a result is put in dangerous situations."; //book description returned
                 }
 
         /*5. Add a method called printOrderName. It should not return any values. In the body of the method, add the following line: Console.WriteLine(this.name); */
@@ -37,7 +36,7 @@ class Program
             }
                 
         /*6. Create an object called order1. Output the value of the name field (order1.name) inside of a Console.WriteLine() statement. */
-        static void Main(string[] args)
+        static void Main(string[] args) //main method moved to keep question numbering order
         {
             Order order1 = new Order(); //order1 object created
 
