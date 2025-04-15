@@ -4,8 +4,42 @@ class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine("Hello, World!");
-        //1. TayeJa Pearson
+        Console.WriteLine("Hello, World!");
 
+        /*1. Include your name, course number and CRN as a comment in your code.*/
+               //TayeJa Pearson [IT1050 CRN 13078]
+
+        /*2. Include the instructions for each step as a comment in your code.*/
+
+        /*3. Create a class named Order. Add a field called name to the Order class, use the public access modifier for the name field. Assign your name to the name field. */
+            Order order = new Order();
+            public order.name = "TayeJa Pearson";
+
+        /*4. Add a method called getOrder(). Have it return the title of your favorite book or textbook. Add a method called getOrderDesc(). Have it return a brief description of the favorite book/textbook that you used for getOrder() method. */
+            public string getOrder()
+            {
+                return "The Alchemist";
+            }
+
+            public string getOrderDesc()
+            {
+                return "A novel by Paulo Coelho that tells the story of a shepherd named Santiago who dreams of finding treasure in Egypt.";
+            }
+
+        /*5. Add a method called printOrderName. It should not return any values. In the body of the method, add the following line: Console.WriteLine(this.name); */
+            public void printOrderName()
+            {
+                Console.WriteLine(this.name);
+            }
+
+        /*6. Create an object called order1. Output the value of the name field (order1.name) inside of a Console.WriteLine() statement.  */
+            Order order1 = new Order();
+            Console.WriteLine(order1.name);
+
+        /*7. Output the return value from order1.getOrder(). Output the return value from order1.getOrderDesc(). Call printOrderName() to output name again. */
+            Console.WriteLine(order1.getOrder());
+            Console.WriteLine(order1.getOrderDesc());
+            order1.printOrderName();
+            
     }
 }
