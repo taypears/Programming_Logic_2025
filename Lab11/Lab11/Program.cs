@@ -11,7 +11,7 @@ class Program
         Your class name should be appropriately named. Add two fields to your class and assign values to both fields.
         Use public access modifiers for both of your fields.*/
 
-                class Dog
+                class Dog //new class called Dog added
                 {
                     public string name = "Tito";
                     public int age = 6;
@@ -19,14 +19,14 @@ class Program
 
         /*4. Add a method to your class that returns a string variable and will be called from the main method.*/
 
-                    public string DogName()
+                    public string DogName() //method to get dog name
                         {
                             return name;
                         }
 
         /*5. Add a method to your class that returns an integer variable and will be called from the main method.*/
 
-                    public int DogAge()
+                    public int DogAge() // method to get dog age
                         {
                             return age;
                         }
@@ -34,23 +34,23 @@ class Program
 
         /*6. Add a method to your class that does not return any values and is used to display information about your class.*/
 
-                    public void DisplayDogInfo()
+                    public void DisplayDogInfo() //doesn't return any value; no parameters necessary
                         {
-                            Console.WriteLine($"The dogs name is {name}.");
-                            Console.WriteLine($"The dog is {age} years old.");
+                            Console.WriteLine($"Dog name: {name}"); //Outputing dog name 
+                            Console.WriteLine($"Dog age: {age}"); //Outputing dog age 
                         }
                 }
 
         /*7. Create an object of your class. In the main method output the return value from the methods in steps 4 and 5. 
         Call the method in step 6 to print out the information for your class.*/
 
-                static void Main(string[] args)
+                public static void Main() //main method created
                     {
-                        Dog myDog = new Dog();
+                        Dog myDog = new Dog(); //object called myDog created from Dog class
 
-                            Console.WriteLine(myDog.DogName());
-                            Console.WriteLine(myDog.DogAge());
-                            myDog.DisplayDogInfo();
+                            Console.WriteLine(myDog.DogName()); //calling method to get dog name
+                            Console.WriteLine(myDog.DogAge()); //calling method to get dog age
+                            myDog.DisplayDogInfo(); //calling method to display dog info
 
                     }
 }
