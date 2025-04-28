@@ -35,7 +35,7 @@ class Program
                     private string breed = "Boxer Terrier"; //private access modifier breed added
                     private string color = "Brown"; //private access modifier color added
 
-                    public Dog() //default constructor added
+                    public Dog(string name, int age, string breed, string color) //default constructor added
                         {
                             name = "Tito"; //default value for name
                             age = 6; //default value for age
