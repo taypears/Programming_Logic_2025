@@ -36,7 +36,7 @@ class Program
                     {
                         Console.WriteLine("This is the finally block. The program will continue to run."); //finally block to ensure program continues to run
                     }
-                //Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
+                
     }
         /*4.  Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
 
