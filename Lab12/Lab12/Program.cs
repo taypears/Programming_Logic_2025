@@ -39,21 +39,28 @@ class Program
                 
     }
         /*4.  Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
-
-                 class Dog //new class called Dog added
-                     {
-                    public string name = "Tito"; //name field added
-                    public int age = 6; //age field added
-                    private string breed = "Boxer Terrier"; //private access modifier breed added
-                    private string color = "Brown"; //private access modifier color added
-
-                    public Dog() //default constructor added
+                    class Dog //new class called Dog added
                         {
-                            name = "Tito"; //default value for name
-                            age = 6; //default value for age
-                            breed = "Boxer Terrier"; //default value for breed
-                            color = "Brown"; //default value for color
-                        }
+                        public string name = "Tito"; //name field added
+                        public int age = 6; //age field added
+                        private string breed = "Boxer Terrier"; //private access modifier breed added
+                        private string color = "Brown"; //private access modifier color added
+
+                        public Dog() //default constructor added
+                            { //values set
+                                name = "Tito"; 
+                                age = 6; 
+                                breed = "Boxer Terrier"; 
+                                color = "Brown"; 
+                            }
+                            public void displayDogInfo()
+                            {
+                                Console.WriteLine("Dog Name: " + name); 
+                                Console.WriteLine("Dog Age: " + age); 
+                                Console.WriteLine("Dog Breed: " + breed); 
+                                Console.WriteLine("Dog Color: " + color); 
+                               
+                            }
 
 
         /*5.   Add a constructor method to your class that accepts 2 of the 4 parameters. */
