@@ -19,12 +19,30 @@ class Program
         Console.WriteLine(Numbers[6]);     //try to access invalid index of array [Note - To ensure that your code runs, put the given code and your exception handling code in the Main method of your C# program]*/
 
                 int [ ] Numbers = { 23, 45, 76, 89, 12, 37};    //declare array 
-                for (int i = 0; i < Numbers.Length; i++) 
-                    {       //print out array values
-                    Console.WriteLine(Numbers[i]);
-                    }
 
+                for (int i = 0; i < Numbers.Length; i++) 
+                    {       
+                    Console.WriteLine(Numbers[i]); //prints array values
+                    }
+                Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
+    }
         /*4.  Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
+
+                 class Dog //new class called Dog added
+                     {
+                    public string name = "Tito"; //name field added
+                    public int age = 6; //age field added
+                    private string breed = "Boxer Terrier"; //private access modifier breed added
+                    private string color = "Brown"; //private access modifier color added
+
+                    public Dog() //default constructor added
+                        {
+                            name = "Tito"; //default value for name
+                            age = 6; //default value for age
+                            breed = "Boxer Terrier"; //default value for breed
+                            color = "Brown"; //default value for color
+                        }
+
 
         /*5.   Add a constructor method to your class that accepts 2 of the 4 parameters. */
 
