@@ -18,11 +18,23 @@ class Program
                 }
         Console.WriteLine(Numbers[6]);     //try to access invalid index of array [Note - To ensure that your code runs, put the given code and your exception handling code in the Main method of your C# program]*/
 
-                int [ ] Numbers = { 23, 45, 76, 89, 12, 37};    //declare array 
-
-                for (int i = 0; i < Numbers.Length; i++) 
-                    {       
-                    Console.WriteLine(Numbers[i]); //prints array values
+               int [ ] Numbers = { 23, 45, 76, 89, 12, 37};    //declare array 
+    
+                    for (int i = 0; i < Numbers.Length; i++) 
+                        {       
+                        Console.WriteLine(Numbers[i]); //prints array values
+                        }
+                    try
+                    {
+                        Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
+                    }
+                    catch (IndexOutOfRangeException e)
+                    {
+                        Console.WriteLine("Error: " + e.Message); //catch exception and print error message
+                    }
+                    finally
+                    {
+                        Console.WriteLine("This is the finally block. The program will continue to run."); //finally block to ensure program continues to run
                     }
                 //Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
     }
