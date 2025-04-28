@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": "Launch Lab12 or Lab12a",
+            "program": "${workspaceFolder}/${input:selectedProject}/bin/Debug/net9.0/${input:executableName}.dll",
+            "preLaunchTask": "build",
+            "cwd": "${workspaceFolder}/${input:selectedProject}",
+            "stopAtEntry": false
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "selectedProject",
+            "description": "Select the project to build",
+            "options": [
+                "Lab12",
+                "Lab12a"
+            ]
+        }
+    ]
+}
