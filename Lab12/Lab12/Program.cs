@@ -24,7 +24,7 @@ class Program
                     {       
                     Console.WriteLine(Numbers[i]); //prints array values
                     }
-                Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
+                //Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
     }
         /*4.  Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
 
@@ -35,7 +35,7 @@ class Program
                     private string breed = "Boxer Terrier"; //private access modifier breed added
                     private string color = "Brown"; //private access modifier color added
 
-                    public Dog(string name, int age, string breed, string color) //default constructor added
+                    public Dog() //default constructor added
                         {
                             name = "Tito"; //default value for name
                             age = 6; //default value for age
@@ -45,11 +45,34 @@ class Program
 
 
         /*5.   Add a constructor method to your class that accepts 2 of the 4 parameters. */
-
+                    
+                    public Dog(string name, int age) //default constructor added
+                        {
+                            this.name = name; //default value for name
+                            this.age = age; //default value for age
+                        }
         /*6.   Add a constructor method to your class that accepts all four parameters. */
+
+                     public Dog(string name, int age, string breed, string color) //default constructor added
+                        {
+                            this.name = "Tito"; //default value for name
+                            this.age = 6; //default value for age
+                            this.breed = "Boxer Terrier"; //default value for breed
+                            this.color = "Brown"; //default value for color
+                        }
 
         /*7.  Create an object of your class and call the 2-parameter constructor to initialize 2 of the fields and output the object details.*/
 
+
+                    static void Main(string[] args)
+                        {
+                        Dog myDog = new Dog("Tito", 6); //2 parameter object
+                        Console.WriteLine($"Dog Name: {myDog.name}, Dog Age: {myDog.age}"); //output
+                        
         /*8.   Create a second object of your class and call the 4-parameter constructor to initialize all 4 fields and output the object details. */
+
+                        Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black"); // 4 parameter object
+                        Console.WriteLine($"Dog Name: {myDog2.name}, Dog Age: {myDog2.age}, Dog Breed: {myDog2.breed}, Dog Color: {myDog2.color}");
+                        }
     }
 }
