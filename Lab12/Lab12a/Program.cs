@@ -52,11 +52,13 @@ class Program
                                 age = 6; 
                                 breed = "Boxer Terrier"; 
                                 color = "Brown"; 
-                            
-                            Console.WriteLine("Dog Name: " + name); 
-                            Console.WriteLine("Dog Age: " + age); 
-                            Console.WriteLine("Dog Breed: " + breed); 
-                            Console.WriteLine("Dog Color: " + color); 
+                            }
+                            public void displayDogInfo()
+                            {
+                                Console.WriteLine("Dog Name: " + name); 
+                                Console.WriteLine("Dog Age: " + age); 
+                                Console.WriteLine("Dog Breed: " + breed); 
+                                Console.WriteLine("Dog Color: " + color); 
                                
                             }
                         
