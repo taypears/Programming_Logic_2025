@@ -32,7 +32,7 @@ class Program
                     }
                     finally
                     {
-                        Console.WriteLine("This is the finally block. The program will continue to run."); //finally block to ensure program continues to run
+                       // Console.WriteLine("This is the finally block. The program will continue to run."); //finally block to ensure program continues to run
                     }
     }
 
