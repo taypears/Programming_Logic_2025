@@ -64,7 +64,7 @@ class Program
         /*7.  Create an object of your class and call the 2-parameter constructor to initialize 2 of the fields and output the object details.*/
 
 
-                    static void Main(string[] args)
+                    public static void myDog()
                         {
                         Dog myDog = new Dog("Tito", 6); //2 parameter object
                         Console.WriteLine($"Dog Name: {myDog.name}, Dog Age: {myDog.age}"); //output
