@@ -28,7 +28,7 @@ class Program
                     {
                         Console.WriteLine(Numbers[6]);     //try to access invalid index of array 
                     }
-                    catch (IndexOutOfRangeException e)
+                    catch (Exception e)
                     {
                         Console.WriteLine("Error: " + e.Message); //catch exception and print error message
                     }
