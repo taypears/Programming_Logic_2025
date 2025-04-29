@@ -39,9 +39,9 @@ class Program
                         Console.WriteLine("Try and catch has been completed. The program will continue to run."); //finally block to ensure program continues to run
                     }
                 
-                Dog myDog = new Dog();
+                Dog myDog = new Dog("Tito", 6); //2 parameter object
                 myDog.displayDogInfo(); //call method to display Tito info
-                Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
+                Dog myDog2 = new Dog();
                 myDog2.displayDogInfo();//call method to display Rosa info
                 
                 
@@ -49,6 +49,7 @@ class Program
         /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 
          B) Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
            class Dog //new class called Dog added
+           
                         {
                         public string name; //name field added
                         public int age; //age field added
@@ -71,7 +72,7 @@ class Program
                             }
         /*5.   Add a constructor method to your class that accepts 2 of the 4 parameters. */
                     
-                    public Dog(string name, int age) //default constructor added
+                    public Dog(string name, int age) //default constructor added with paramters
                         {
                             this.name = name; //default value for name
                             this.age = age; //default value for age
