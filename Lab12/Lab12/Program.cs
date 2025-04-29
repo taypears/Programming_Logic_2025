@@ -36,10 +36,11 @@ class Program
                     {
                         Console.WriteLine("Try and catch has been completed. The program will continue to run."); //finally block to ensure program continues to run
                     }
-                Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
-                myDog2.displayDogInfo();//call method to display Rosa info
+                
                 Dog myDog = new Dog();
                 myDog.displayDogInfo(); //call method to display Tito info
+                Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
+                myDog2.displayDogInfo();//call method to display Rosa info
                 
                 
     }
