@@ -34,8 +34,11 @@ class Program
                     {
                        Console.WriteLine("The program will continue to run."); //finally block to ensure program continues to run
                     }
-                    Dog myDog = new Dog();
-                    myDog.displayDogInfo();
+                    Dog dog = new Dog();
+                    dog.name = "Tito"; //name field added
+                    dog.age = 6; //age field added
+                    dog.breed = "Boxer Terrier"; //private access modifier breed added
+                    dog.color = "Brown"; //private access modifier color added
     }
 
          /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Lab12;
 
@@ -38,10 +39,12 @@ class Program
                     {
                         Console.WriteLine("Try and catch has been completed. The program will continue to run."); //finally block to ensure program continues to run
                     }
-                
+    }
+                public static void myDog() //static method to call Dog class
+                {
                 Dog myDog = new Dog("Tito", 6); //2 parameter object
                 myDog.displayDogInfo(); //call method to display Tito info
-                Dog myDog2 = new Dog();
+                Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
                 myDog2.displayDogInfo();//call method to display Rosa info
                 
                 
