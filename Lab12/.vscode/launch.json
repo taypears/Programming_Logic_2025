@@ -1,28 +1,32 @@
-{
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "coreclr",
-            "request": "launch",
-            "name": "Launch Lab12 or Lab12a",
-            "program": "${workspaceFolder}/${input:selectedProject}/bin/Debug/net9.0/${input:executableName}.dll",
-            "preLaunchTask": "build",
-            "cwd": "${workspaceFolder}/${input:selectedProject}",
-            "stopAtEntry": false
-        }
-    ],
-    "inputs": [
-        {
-            "type": "pickString",
-            "id": "selectedProject",
-            "description": "Select the project to build",
-            "options": [
-                "Lab12",
-                "Lab12a"
-            ]
-        }
-    ]
-}
+To debug Lab12 using the provided `launch.json`, ensure the following steps are completed:
+
+1. **Verify .NET SDK Installation**: Ensure you have the .NET SDK installed on your system. You can check by running `dotnet --version` in your terminal.
+
+2. **Check Project Build**: Ensure the `Lab12` project builds successfully. Run the following command in the terminal from the workspace folder:
+    ```bash
+    dotnet build Lab12
+    ```
+
+3. **Update the `program` Path**: The `program` path in your `launch.json` references `${input:lab12a}.dll`, but there is no `lab12a` input defined. Update the `program` path to directly reference the DLL file for Lab12:
+    ```jsonc
+    "program": "${workspaceFolder}/Lab12/bin/Debug/net9.0/Lab12.dll"
+    ```
+
+4. **Launch Debugging**:
+    - Open the Debug panel in VS Code (`Ctrl+Shift+D` or `Cmd+Shift+D` on macOS).
+    - Select the `Launch Lab12` configuration.
+    - Click the green "Start Debugging" button or press `F5`.
+
+5. **Optional - Add Missing Input**: If you intended to use `${input:lab12a}`, define it in the `inputs` section:
+    ```jsonc
+    {
+         "type": "pickString",
+         "id": "lab12a",
+         "description": "Select the DLL to debug",
+         "options": [
+              "Lab12"
+         ]
+    }
+    ```
+
+//After making these adjustments, you should be able to debug Lab12.

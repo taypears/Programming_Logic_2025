@@ -32,8 +32,10 @@ class Program
                     }
                     finally
                     {
-                       // Console.WriteLine("This is the finally block. The program will continue to run."); //finally block to ensure program continues to run
+                       Console.WriteLine("The program will continue to run."); //finally block to ensure program continues to run
                     }
+                    Dog myDog = new Dog();
+                    myDog.displayDogInfo();
     }
 
          /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 
