@@ -38,8 +38,8 @@ class Program
                     }
                 Dog myDog = new Dog();
                 myDog.displayDogInfo(); //call method to display Tito info
-                Dog myDog2 = new Dog ();
-                myDog2.displayDogInfo(); //call method to display Rosa info
+                Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
+                myDog2.displayDogInfo();//call method to display Rosa info
                 
     }
         /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 
@@ -93,7 +93,7 @@ class Program
         /*8.   Create a second object of your class and call the 4-parameter constructor to initialize all 4 fields and output the object details. */
 
                         Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black"); // 4 parameter object
-                        Console.WriteLine($"Dog Name: {myDog2.name}, Dog Age: {myDog2.age}, Dog Breed: {myDog2.breed}, Dog Color: {myDog2.color}");
+                        myDog2.displayDogInfo(); 
                         }
     }
 }
