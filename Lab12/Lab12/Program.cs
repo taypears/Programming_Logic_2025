@@ -53,10 +53,10 @@ class Program
 
                         public Dog() //default constructor added
                             { //values set
-                                name = "Tito"; 
-                                age = 6; 
-                                breed = "Boxer Terrier"; 
-                                color = "Brown"; 
+                                this.name = name; //default value for name
+                            this.age = age; //default value for age
+                            this.breed = breed; //default value for breed
+                            this.color = color; //default value for color
                             }
                             public void displayDogInfo() //details of dog displayed
                             {
