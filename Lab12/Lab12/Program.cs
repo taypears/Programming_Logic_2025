@@ -36,10 +36,11 @@ class Program
                     {
                         Console.WriteLine("Try and catch has been completed. The program will continue to run."); //finally block to ensure program continues to run
                     }
-                Dog myDog = new Dog();
-                myDog.displayDogInfo(); //call method to display Tito info
                 Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
                 myDog2.displayDogInfo();//call method to display Rosa info
+                Dog myDog = new Dog();
+                myDog.displayDogInfo(); //call method to display Tito info
+                
                 
     }
         /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 
@@ -53,17 +54,17 @@ class Program
 
                         public Dog() //default constructor added
                             { //values set
-                                this.name = name; //default value for name
-                            this.age = age; //default value for age
-                            this.breed = breed; //default value for breed
-                            this.color = color; //default value for color
+                                name = "Tito"; 
+                                age = 6; 
+                                breed = "Boxer Terrier"; 
+                                color = "Brown"; 
                             }
-                            public void displayDogInfo() //details of dog displayed
+                            public void displayDogInfo()
                             {
-                                Console.WriteLine("Dog Name: " + name); 
-                                Console.WriteLine("Dog Age: " + age); 
-                                Console.WriteLine("Dog Breed: " + breed); 
-                                Console.WriteLine("Dog Color: " + color); 
+                                Console.WriteLine("Dog Name: " + name);
+                                Console.WriteLine("Dog Age: " + age);
+                                Console.WriteLine("Dog Breed: " + breed);
+                                Console.WriteLine("Dog Color: " + color);
                             }
         /*5.   Add a constructor method to your class that accepts 2 of the 4 parameters. */
                     
