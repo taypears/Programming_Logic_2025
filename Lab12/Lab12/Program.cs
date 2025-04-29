@@ -39,14 +39,11 @@ class Program
                     {
                         Console.WriteLine("Try and catch has been completed. The program will continue to run."); //finally block to ensure program continues to run
                     }
-    }
-                public static void myDog() //static method to call Dog class
-                {
+                
                 Dog myDog = new Dog("Tito", 6); //2 parameter object
                 myDog.displayDogInfo(); //call method to display Tito info
                 Dog myDog2 = new Dog("Rosa", 12, "American Bulldog", "Black");
                 myDog2.displayDogInfo();//call method to display Rosa info
-                
                 
     }
         /*4. A) Using the class that you created in Lab 11, add two more fields to your class and use the private access modifier for these new fields. 
