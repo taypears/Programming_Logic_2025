@@ -1,4 +1,6 @@
-﻿namespace Lab12;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Lab12;
 
 class Program
 {
@@ -48,13 +50,13 @@ class Program
          B) Add a default constructor that does not accept any parameters and sets the value of all four fields with default (initial) values. Modify the void method in your class that prints the class details so that it will print all four fields.*/
            class Dog //new class called Dog added
                         {
-                        public string name = "Tito"; //name field added
-                        public int age = 6; //age field added
-                        private string breed = "Boxer Terrier"; //private access modifier breed added
-                        private string color = "Brown"; //private access modifier color added
+                        public string name; //name field added
+                        public int age; //age field added
+                        private string breed; //private access modifier breed added
+                        private string color; //private access modifier color added
 
                         public Dog() //default constructor added
-                            { //values set
+                            { 
                                 name = "Tito"; 
                                 age = 6; 
                                 breed = "Boxer Terrier"; 
