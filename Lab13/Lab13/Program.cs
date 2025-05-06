@@ -1,11 +1,5 @@
 ﻿namespace Lab13;
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-
-
         /* 1.  Include your name, course number and course CRN as a comment in your code. */
             //TayeJa Pearson [IT 1050 CRN 13078]
 
