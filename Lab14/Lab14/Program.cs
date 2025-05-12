@@ -10,27 +10,27 @@
 
         class Dog //base class called Dog added
             {
-                public virtual void DogSize() //method to get dog breed
+                public virtual void DogSize() //virtual method is unique to the base class and can be overridden in the derived class
                 {
                     Console.WriteLine("Dogs come in different sizes"); //Outputing dog breed 
                 }
             }
         /*4. Create a derived class (child class) of your class and add the same void method from step 3 to the derived class and the message that the method prints is different from the base class (parent class) i.e. the void method of the base class and the derived class must all have different messages printed.*/
-
         
         class LargeDog : Dog //derived class called LargeDog added
             {
-                public override void DogSize() //method to get dog breed
+                public override void DogSize() //overrides dog size method from base class
                 {
                     Console.WriteLine("Large dogs are usually 50-100 pounds"); //Outputing dog breed 
                 }
             }
-       
-    class Program
-{
-    static void Main(string[] args)
-    {
-        Dog myDog = new LargeDog(); //object called myDog created from Dog class
-        myDog.DogSize(); //calling method to get dog breed
-    }
-}
+       /*5.Create an object of your derived class (child class) and call its method. Create an object of the base class (parent class) and call its method.*/
+
+            class Program
+        {
+            static void Main(string[] args)
+            {
+                Dog myDog = new LargeDog(); //object called myDog created from Dog class
+                myDog.DogSize(); //calling method to get dog breed
+            }
+        }
