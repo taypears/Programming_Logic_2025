@@ -52,7 +52,7 @@
 {
     static void Main(string[] args)
     {
-        Dog myDog = new Dog(); //object called myDog created from Dog class
+        Dog myDog = new LargeDog(); //object called myDog created from Dog class
         myDog.DogSize(); //calling method to get dog breed
 
 
